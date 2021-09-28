@@ -58,7 +58,14 @@ const { t } = useI18n()
   </div>
 </template>
 
+<style scoped>
+.name {
+  background-color: black;
+}
+</style>
+
 <route lang="yaml">
+# 在这里配置layout
 meta:
   layout: home
 </route>

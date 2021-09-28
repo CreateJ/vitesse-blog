@@ -9,9 +9,11 @@ declare module 'vue' {
     CarbonLanguage: typeof import('~icons/carbon/language')['default']
     CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default']
     CarbonMoon: typeof import('~icons/carbon/moon')['default']
+    CarbonPedestrian: typeof import('~icons/carbon/pedestrian')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
-    Footer: typeof import('./components/Footer.vue')['default']
-    README: typeof import('./components/README.md')['default']
+    Footer: typeof import('D:/CODE/GITHUB/vitesse-template/src/components/Footer.vue')['default']
+    'Mdi:accountCircleOutline': typeof import('~icons/mdi/account-circle-outline')['default']
+    README: typeof import('D:/CODE/GITHUB/vitesse-template/src/components/README.md')['default']
   }
 }
 
