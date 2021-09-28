@@ -12,7 +12,9 @@ declare module 'vue' {
     CarbonPedestrian: typeof import('~icons/carbon/pedestrian')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
     Footer: typeof import('D:/CODE/GITHUB/vitesse-template/src/components/Footer.vue')['default']
+    Header: typeof import('D:/CODE/GITHUB/vitesse-template/src/components/Header.vue')['default']
     'Mdi:accountCircleOutline': typeof import('~icons/mdi/account-circle-outline')['default']
+    'Mdi:emoticonKissOutline': typeof import('~icons/mdi/emoticon-kiss-outline')['default']
     README: typeof import('D:/CODE/GITHUB/vitesse-template/src/components/README.md')['default']
   }
 }

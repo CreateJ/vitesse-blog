@@ -1,10 +1,23 @@
-/* 未在页面中标注layout会直接使用default的布局 */
 <template>
-  <main class="px-4 py-10 text-center text-gray-700 dark:text-gray-200">
+  <main class="origion-container min-h-full w-full text-center text-gray-700 dark:text-gray-200 flex flex-col">
+    <Header />
     <router-view />
     <Footer />
-    <div class="mt-5 mx-auto text-center opacity-25 text-sm">
-      [Default Layout]
-    </div>
   </main>
 </template>
+
+<style>
+html{
+  overflow: overlay;
+}
+html::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: rgb(199, 199, 199);
+  border-radius: 5px
+}
+</style>
