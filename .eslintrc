@@ -1,5 +1,9 @@
 {
   "extends": [
     "@antfu"
-  ]
+  ],
+  "rules": {
+    "no-console": "off",
+    "prefer-rest-params": "off"
+  }
 }
