@@ -31,6 +31,11 @@ console.log(nameProxy.name)
 nameProxy.name = 'mike'
 console.log(nameProxy)
 
+const arr = [1, 2, 3, 4]
+const obj: any = {}
+arr.forEach((e: number) => (obj[e] = true))
+console.log(obj)
+
 </script>
 
 <style scoped>

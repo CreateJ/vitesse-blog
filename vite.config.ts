@@ -29,11 +29,18 @@ export default defineConfig({
     }),
 
     // https://github.com/hannoeru/vite-plugin-pages
+    // import generate routes plugins
     Pages({
+      // selected all .vue & .md as a route
       extensions: ['vue', 'md'],
+      // TODO: Maybe i will use modular design, use like this.
+      // pagesDir: [
+      //   { dir: 'src/pages', baseRoute: '' },
+      // ],
     }),
 
     // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
+    //  Easier to choose different layout
     Layouts(),
 
     // https://github.com/antfu/unplugin-auto-import

@@ -2,12 +2,7 @@
 </script>
 
 <template>
-  <div>
-    <ul>
-      <li v-for="value in 20" :key="value" class="h-20">
-        {{ value }}
-      </li>
-    </ul>
+  <div class="bg-gray-50">
   </div>
 </template>
 
