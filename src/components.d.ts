@@ -9,13 +9,12 @@ declare module 'vue' {
     CarbonLanguage: typeof import('~icons/carbon/language')['default']
     CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default']
     CarbonMoon: typeof import('~icons/carbon/moon')['default']
-    CarbonPedestrian: typeof import('~icons/carbon/pedestrian')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
-    Footer: typeof import('D:/CODE/GITHUB/vitesse-template/src/components/Footer.vue')['default']
-    Header: typeof import('D:/CODE/GITHUB/vitesse-template/src/components/Header.vue')['default']
-    'Mdi:accountCircleOutline': typeof import('~icons/mdi/account-circle-outline')['default']
+    ElButton: typeof import('element-plus/es')['ElButton']
+    Footer: typeof import('C:/Users/王二蛋/Coder/vue3/vitesse-blog/src/components/Footer.vue')['default']
+    Header: typeof import('C:/Users/王二蛋/Coder/vue3/vitesse-blog/src/components/Header.vue')['default']
     'Mdi:emoticonKissOutline': typeof import('~icons/mdi/emoticon-kiss-outline')['default']
-    README: typeof import('D:/CODE/GITHUB/vitesse-template/src/components/README.md')['default']
+    README: typeof import('C:/Users/王二蛋/Coder/vue3/vitesse-blog/src/components/README.md')['default']
   }
 }
 
